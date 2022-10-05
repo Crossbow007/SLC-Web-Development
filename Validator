@@ -1,0 +1,18 @@
+Learning the Basics 
+1.	Open Headings1.html from your Headings folder in Visual Code.
+2.	Go to Validator.w3.org
+3.	Click Validate By Direct Input
+4.	Paste in the code from Headings1.html.  
+5.	Click Check.
+6.	Take out the h3 closing tag for the rat snake.  
+7.	Click Check.
+8.	The error is cryptic but it tells you something is wrong. Errors need to be fixed.
+9.	Go back to Validator.w3.org
+10.	Click Validate by File Upload.
+11.	Click Browse.
+12.	Open BasicTable2.html from your Tables folder.
+13.	Click Check.
+14.	Validate it. The validator is telling you to use css for the look of the web page. The validator is right. We will be starting css soon.
+
+In Class Website 
+Run all pages in your in class website through the validator. Read the errors and warnings carefully. Make appropriate changes. 
