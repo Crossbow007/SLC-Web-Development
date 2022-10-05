@@ -1,0 +1,56 @@
+<!doctype html>
+<!--Kevin Gao-->
+<html lang = "en">
+<head>
+      <meta charset = "UTF-8">
+      <title> Table </title>
+</head>
+<body>
+    <p>
+        <a href = "index.html" title="Home"> Home</a>               
+        <a href = "table.html" title="Table"> Table</a>             
+        <a href = "image.html" title="Image"> Image</a>        
+        <a href = "form.html" title="Form"> Form</a>     
+   </p> 
+   <p>
+        <a href="https://www.thingstodoinkingston.ca/kingston-canoeing" title ="canoing" ></a>
+        <img src="./imgs/icon.png" height = "50" width = "150" alt="Canoeing logo"/>           
+   </p>
+    <table border = "1">
+        <tr>
+            <th colspan="5">Canoe types and price</th>
+        </tr>
+        <tr>
+            <td></td>
+            <th>14ft</th>
+            <th>16ft</th>
+            <th>18ft</th>
+            <th>20ft</th>
+        </tr>
+        <tr>
+            <th rowspan = "2"> Fibergalss </th>
+            <td>1200</td>
+            <td>1430</td>
+            <td>1620</td>
+            <td>1811</td>
+        </tr>
+        <tr>
+            
+            <td>1200</td>
+            <td>1430</td>
+            <td>1620</td>
+            <td>1811</td>
+        </tr>
+        <tr>
+            <th>Aluminum</th>
+            <td>2000</td>
+            <td>2300</td>
+            <td>2400</td>
+            <td>2500</td>
+        </tr>
+    </table>
+    <footer>
+        <p>Contact Kevin Gao: <a href="mailto:kevin.gao@student.sl.on.ca">kevin.gao@student.sl.on.ca</a></p>
+    </footer>
+</body>
+</html>
