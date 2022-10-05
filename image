@@ -1,0 +1,58 @@
+<!doctype html>
+<!--Kevin Gao-->
+<html lang = "en">
+<head>
+      <meta charset = "UTF-8">
+      <title> table </title>
+</head>
+<body>
+    <p>
+        <a href = "index.html" title="Home"> Home</a>               
+        <a href = "table.html" title="Table"> Table</a>             
+        <a href = "imagepage.html" title="Image"> Image</a>        
+        <a href = "form.html" title="Form"> Form</a>     
+   </p> 
+   <p>
+        <a href="https://www.thingstodoinkingston.ca/kingston-canoeing" title ="canoing" ></a>
+        <img src="./imgs/icon.png" height = "50" width = "150" alt="Canoeing logo"/>           
+   </p>
+   <h1>How to restore a Canoe</h1>
+    
+   <h2>Original</h2>
+    <p>
+        <img src="./imgs/Picture1.jpg" height="300" width="180" alt="original 1"/>
+    </p>
+    <h2>Step1 cleaning</h2>
+    <p>
+        <img src="./imgs/Picture2.jpg" height="300" width="180" alt="cleaning"/>
+    </p>  
+    <h2>Step2 sander</h2>
+    <p>
+        <img src="./imgs/Picture3.jpg" height="300" width="180" alt="sander"/>
+    </p>   
+    <h2>Step3 painting</h2>
+    <p>
+        <img src="./imgs/Picture4.jpg" height="300" width="180" alt="painting"/>
+    </p>  
+    <h2>Step4 wooden work</h2>
+    <p>
+        <img src="./imgs/Picture5.jpg" height="300" width="180" alt="wooden work"/>
+    </p>   
+    <h2>Step5 assemble</h2>
+    <p>
+        <img src="./imgs/Picture6.jpg" height="300" width="180" alt="assemble"/>
+    </p>   
+    <h2> Family time</h2>
+    <p>
+        <img src="./imgs/Picture7.jpg" height="300" width="180" alt="family time"/>
+    </p>  
+    <h2> Fishing</h2>
+    <p>
+        <img src="./imgs/Picture8.jpg" height="300" width="180" alt="fishing"/>
+    </p>     
+
+    <footer>
+        <p>Contact Kevin Gao: <a href="mailto:kevin.gao@student.sl.on.ca">kevin.gao@student.sl.on.ca</a></p>
+    </footer>
+</body>
+</html>
