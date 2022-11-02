@@ -1,0 +1,58 @@
+<!doctype html> 
+<html lang = "en">
+   <head>
+     <meta charset = "UTF-8">
+     <title>  </title>
+	 <link rel ="stylesheet" type = "text/css" href = "MarginsPadding.css" />
+   </head>
+   <body>
+   <h1>Margins and padding</h1>
+   <div class = "bigredsquare">
+      <p>This paragraph has the default margins and padding.</p>
+      <p class = "marginexample">This paragraph has 0.5em margin but no padding. Notice there is 
+	                      space outside the border but not inside.</p>
+      <p class = "paddingexample">This paragraph has 1em padding but no margin. Notice there is 
+	                      space inside the border but not outside.</p>
+      <p class = "both">This paragraph has margin and padding.</p>
+   </div>	 
+	 <div class = "animalsbox">
+      This  blue box has:
+      <ul>
+         <li>top margin of 2.5em. That represents the space above the blue border.</li>
+         <li>left padding of 0.8em. Notice the space between the left border and the echidna.</li>
+         <li>right margin of 3em. There is space outside the blue border on the right.</li>
+         <li>bottom padding of 4.75em: the space under the echidna and inside the border.</li>
+      </ul> 
+
+	    <img src = "echidna.jpg" height ="200" width="270" alt = "cute baby" />
+	 </div>	 
+   </body>
+</html>
+
+p {
+    border: black 0.1em solid;
+}
+.bigredsquare {
+	/* border width keywords: thin, medium, thick */
+    border: red thick solid; 
+}
+.marginexample {
+    margin: 0.5em;
+}
+.paddingexample {
+	padding: 1em;
+}
+.both {
+    margin: 1em;
+	padding: 1em;
+}
+.animalsbox {
+    border: blue medium solid;
+    margin-right: 3em;
+    padding-left:0.8em;
+    margin-top: 2.5em;  
+    padding-bottom:4.75em;
+}
+
+
+
