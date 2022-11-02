@@ -1,0 +1,25 @@
+.heading
+{
+background-color: mediumseagreen;	
+}
+.navigation
+{
+    width:50%;
+    background-color: aqua;
+	
+}
+.maintext{
+	
+	background-color: deeppink;
+	border: 0.3em black  dotted;
+    margin-top:1.5em;
+    text-align: center ;
+    margin-right: 12em;
+    padding-bottom:0.5em;
+	padding-top:0.5em;
+	style
+	
+}
+.highlight{
+	background-color: yellow;
+}
