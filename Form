@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>form1</title>
+  <link rel="stylesheet" href="form1.css">
+</head>
+
+<body>
+  <h1>form 1</h1>
+  <p>This is form1 </p>
+
+
+  <!-- Create some form styles  -->
+  <div class="flexcontainer">
+    <div class="flexitem">Kingston
+      <div>
+        <fieldset>
+          <legend>Log In</legend>
+          html elements here 111
+        </fieldset>
+      </div>
+    </div>
+    <div class="flexitem">Toronto
+      <div>
+        <fieldset>
+          <legend>Log In</legend>
+          html elements here 111
+        </fieldset>
+      </div>
+    </div>
+    <div class="flexitem">Otawwa
+      <div>
+        <fieldset>
+          <legend>Log In</legend>
+          html elements here 111
+        </fieldset>
+      </div>
+    </div>
+    <div class="flexitem">Saskatoon
+      <div>
+        <fieldset>
+          <legend>Log In</legend>
+          html elements here 111
+        </fieldset>
+      </div>
+    </div>
+  </div>
+
+  <div class="flexcontainer">
+    <form action="ParentChild.html">form elements here
+      <label for="venue">
+        Please select the city you favorite:
+      </label>
+      <select id="venue" size="3">
+        <option value="Kingston">Kingston</option>
+        <option value="Toronto">Toronto</option>
+        <option value="Otawwa">Otawwa</option>
+        <option value="Saskatoon">Saskatoon</option>
+      </select>
+
+
+      <div class="text input">
+        <p><label for="text">Enter user story here!</label> </p>
+        <textarea id="text" rows="20" cols="40" maxlength="255"></textarea>
+      </div>
+
+      <label for="username">Enter you name</label>
+      <input type="text" id="username" value="kevin gao" />
+      <label for="password">Enter you password</label>
+      <input type="password" id="password" value="" />
+      <p> </p>
+      <label for="apptDate">Enter the date you want come?</label>
+      <input type="date" id="apptDate">
+      <label for="time">When you want to come?</label>
+      <input type="time" id="apptTime">
+      <div class="meal">
+        <label for="meal">Would you like some meal ? lunch, dinner or both: </label>
+        <label for="meal">lunch</label>
+        <input type="checkbox" id="lunch" />
+        <label for="meal">dinner</label>
+        <input type="checkbox" id="dinner" />
+      </div>
+      <div class="gender">
+        <label for="gender">What your gender: </label>
+        <input type="radio" name="gender" id="gender1" value="Male" />Male
+        <input type="radio" name="gender" id="gender" value="Female" />Female
+
+        <fieldset>
+          <legend>Log In</legend>
+          html elements here
+        </fieldset>
+
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
+
+ body {
+	background-color:salmon;
+	font-size:1.5em;
+	margin-top:1.5em; 
+}
+.flexcontainer
+{
+	display:flex; 
+	flex-direction:row;
+	flex-wrap:wrap; 
+	justify-content:center;/*flex start instead of left; flex end instead of right*/
+    padding-top:0.3em;
+	margin-left:2em;
+    margin-right:2em; 
+	margin-bottom: 5em;
+	background-color:navy;
+	}
+.flexitem
+{
+	background-color:skyblue;
+	border:0.1em solid black;
+	margin-bottom:2em;
+	flex:1;
+}	
+form
+{
+border:0.3em solid red;
+}
+.text
+{
+	margin-top: 5em;
+	margin-bottom: 5em;
+	margin-right:auto;
+    margin-left: auto;
+	background-color: aqua;
+}
+.meal
+{
+	margin-top: 5em;
+	margin-bottom: 5em;
+	margin-right:auto;
+    margin-left: auto;
+	background-color: blue;
+}
+.gender
+{
+	margin-top: 5em;
+	margin-bottom: 5em;
+	margin-right:auto;
+    margin-left: auto;
+	background-color: rgb(14, 226, 85);
+}
+label
+{
+	font-weight: bold;
+}
+input[type="text"],input[type="password"]
+{
+background-color: red;
+color:blue;
+}
+
+textarea:focus
+{
+	background-color:rgb(148, 202, 222);
+}
+textarea:-ms-input-placeholder
+{
+	color:brown;
+}
+
+
