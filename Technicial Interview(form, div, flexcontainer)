@@ -1,0 +1,104 @@
+<!doctype html>
+<!--Kevin Gao-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>PaintPage</title>
+    <link rel="stylesheet" type="text/css" href="GaoKevinInterview.css" />
+</head>
+
+<body>
+    <h1>Kevin Gao Paint Page</h1>
+    <div class="firstSection">
+        This centred text runs across the width of the web page so that you can
+        accurately judge where the elements below are places. Make sure
+        you are working in Chrome with the window maximized and at 100%
+        (not zoomed).
+    </div>
+    <div class="flexcontainer">
+        <div class="flexitem">
+            <label for="text">Room List</label>
+            <textarea id="text" rows="2" cols="20" maxlength="100"></textarea>
+        </div>
+        <div class="flexitem paintColour">
+            <label for="colourChoice">Paint Colour</label>
+            <input type="color" id="colourChoice">
+        </div>
+        <div class="flexitem">
+            <button>Save</button>
+        </div>
+
+    </div>
+    <div class="reflection">
+        <h2><span class="highlight">Reflection </span> Questions</h2>
+
+        There are three answers of my preparation for Web Development course.
+        First answer is for how to prepare this technical interveiw,I have
+        went through the play book that provided by the professor, I mainly
+        focus on the notes I have made during the lecture and lab.Second answer
+        is to review the in-class website V1 and V2. I went back to the
+        checklist for each module and reviewed the codes of html and css.
+        The last answer is not only read the codes on by one, but also to
+        think what functions these elements can provide, why we write the code
+        this way, and what would happen if some attributes are changed.
+
+
+    </div>
+</body>
+
+/*Kevin Gao*/
+body 
+{
+    font-size: 1.1em;
+    font-family: "Arial", "sans-serif";
+}
+
+label 
+{
+    font-style: italic;
+}
+
+.firstSection 
+{
+    background-color: navy;
+    color: white;
+    text-align-last: center;
+    margin-bottom: 1.8em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+}
+
+.flexcontainer 
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexitem 
+{
+    border: 0.2em solid navy;
+    margin-right: 2.1em;
+    flex:2;
+}
+
+.paintColour
+{
+    flex:1;
+}
+
+.reflection 
+{
+    color: black;
+}
+
+.highlight 
+{
+    color: black;
+    background-color: magenta;
+}
+
